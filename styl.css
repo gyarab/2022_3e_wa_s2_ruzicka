@@ -4,11 +4,52 @@
 }
 
 body {
+    font-family: 'Segoe UI';
+    overflow: hidden;
+}
+
+#obsah {
+    padding: 20px;
+}
+
+#logo {
+    width: 40px;
+    margin: 0 20px;
+}
+
+#imgP {
+    width: 800px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+}
+  
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a#aktivni {
+    background-color: rgb(78, 78, 78);
+}
+
+li a:hover,li a#aktivni:hover {
+    background-color: rgb(17, 17, 17);
 }
 
 img {
-    position: absolute;
-    top: 100px;
-    width: 200px;
-    height: 200px;
+    width: 100%;
 }
