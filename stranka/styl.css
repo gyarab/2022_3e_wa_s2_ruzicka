@@ -3,9 +3,12 @@
     padding: 0;
 }
 
+:root {
+    idk: 5;
+}
+
 body {
     font-family: 'Segoe UI';
-    overflow: hidden;
 }
 
 #obsah {
